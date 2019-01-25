@@ -8,7 +8,11 @@
     </head>
     <body>
         <h1>Mozilla is cool</h1>
-        <img src="images/sushi.jpg" alt="Beasutiful Sushi">
+        <picture>
+        <source media="(min-width: 1000px)" srcset="/images/smashBros.jpg">
+        <source media="(min-width: 550px)" srcset="/images/smashBros-small.jpg">
+        <img src="/images/smashBros.jpg" alt="Smash Bros Main Pic">
+    </picture>
 
         <h2>Interests</h2>
 
